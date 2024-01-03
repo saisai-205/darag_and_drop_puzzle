@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="index.css">
+<title>Drag and Drop Puzzle</title>
+</head>
+<body>
+
+    <h1 style="text-align: center;color: rgb(14, 13, 13) ;border: crimson;">drag and drop puzzle</h1>
+    <h1>welcome to drag and drop puzzle</h1>
+    <h3>double tap the puzzle blocks and drag and drop them in the puzzle <div></div>
+        referencing the original picture trace the puzzle blocks<div></div>
+        and drop them and complete the pyuzzle blocks and win the game:
+    </h3>
+    <h1>Notice:</h1>
+    <h3>use the down empty block to re arrange if any mistakes happen</h3>
+    <h1>To refresh:</h1>
+    <h3>use the below refresh button to refresh whole entire page</h3>
+    <h1> To Exit:
+    </h1>
+    <h3>use the below exit button to exit the web page</h3>
+    <h3>some times it wont exit the screen because of browser security</h3>
+  <div class="container">
+    <div>
+        <img src="OIP.jpg" alt="original pic" width="305px">
+
+    </div>
+  
+    <div class="puzzle">
+        
+
+      <div class="blank"></div>
+      <div class="blank"></div>
+      <div class="blank"></div>
+      <div class="blank"></div>
+      <div class="blank"></div>
+      <div class="blank"></div>
+      <div class="blank"></div>
+      <div class="blank"></div>
+      <div class="blank"></div>
+      
+    </div>
+   <div></div>
+    <div class="puzzle">
+       
+      <div class="item" draggable="true"><img src="row-3-column-1.jpg" alt="Part 1"></div>
+      <div class="item" draggable="true"><img src="row-1-column-2.jpg" alt="Part 2"></div>
+      <div class="item" draggable="true"><img src="row-2-column-2.jpg" alt="Part3"></div>
+      <div class="item" draggable="true"><img src="row-2-column-3.jpg" alt="Part 4"></div>
+      <div class="item" draggable="true"><img src="row-3-column-3.jpg" alt="Part 5"></div>
+      <div class="item" draggable="true"><img src="row-3-column-2.jpg" alt="Part 6"></div>
+      <div class="item" draggable="true"><img src="row-1-column-1.jpg" alt="Part 7"></div>
+      <div class="item" draggable="true"><img src="row-2-column-1.jpg" alt="Part 8"></div>
+      <div class="item" draggable="true"><img src="row-1-column-3.jpg" alt="Part 9"></div>
+    </div>
+    </div>
+    <div class="container1">
+      
+    <h1 style="top: 10px;">for change use this block:</h1>
+      <div class="blank" ></div>
+      
+  </div>
+   
+  </div>
+  <div class="container1">
+    <div class="box">
+        <h2>refresh</h2>
+        <p>Click the button below to refresh:</p>
+        <a href="#" onclick="refreshPage();"><button>Refresh</button>    
+    </div>
+      
+      <div class="box">
+        <h2>Exit</h2>
+        <p>Click the button below to exit:</p>
+        <button id="exitFunction">exit</button>  
+      </div>
+  </div>
+  <div id="congratulations" style="display: none;">
+    <h2>Congratulations!</h2>
+    <p>You've completed the puzzle!</p>
+  </div>
+  
+ 
+<script type="text/javascript" src="index.js">
+  
+</script>
+</body>
+</html>

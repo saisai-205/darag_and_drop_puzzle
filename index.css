@@ -1,0 +1,68 @@
+body {
+    background-image:url("wbbb.jpg"); /* Replace with actual image path */
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    background-color:aqua;
+    
+  }
+  .box {
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+  }
+  .container1 {
+    border: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+  }
+  .container {
+    border: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  .puzzle {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 0px;
+  }
+  .blank {
+    border: 10px dashed #130101d2;
+    width: 95px;
+    height: 95px;
+    background-color: #ebe3e3;
+    border: 5px solid #0f0606;
+    display: flex;
+    justify-content:calc(center);
+    align-items: center;
+    cursor: pointer;
+  }
+  .item {
+    width: 100px;
+    height: 100px;
+    background-color: #111010;
+    border: 0px solid #080808;
+    display: flex;
+    justify-content:calc(center);
+    align-items: center;
+    cursor: pointer;
+  }
+  img {
+    max-width: 200%;
+    max-height: 200%;
+  }
+  .refresh-box {
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+  }
